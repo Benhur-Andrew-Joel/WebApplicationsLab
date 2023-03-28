@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+	<link rel="stylesheet" href="style.css">
+	<!-- adding tailwind cdn -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script type="module" src="Grid.js"></script>
+	<script type="module" src="Card.js"></script>
+</head>
+
+<body class="total">
+	<header role = "banner" class="banner"> 
+		<img src="light.jpeg" alt="Christmas Light" style="width:100%;height:50px;">
+		<h1 class="headerTitle">Welcome to Our Christmas Store</h1> 
+		<p style='font-size:12px;text-align:center;'>This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+	
+	<nav>
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="contact.html">Contact Us</a></li>
+			<li> <a href="javaScriptExample.html">Today's Deal</a></li>
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="contact.html">Contact Us</a> </li> -->
+			<!-- <li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="deal.html">Today's Deal</a></li> -->
+		</ul>
+	</nav> 
+	<div class="products" id="gridPhotos">
+		<!-- This old products class is changed using objects in java Script -->
+		<!-- card dealImg-1 -->
+
+
+		<!-- Rendered using Objects -->
+		<div class="card dealImg">
+			<img style="width:100%" id="card1" alt="Decoration" src="just to avoid error"> 
+			<!-- no Src here, but sent here using Objects -->
+			<div class="cardDetails">
+			  <div class= "card title" id="card1Title"></div>
+			  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base" id="card1Description"></p>
+			  <span style='background-color: red;color:white' class="price" id="card1Span"></span>
+	
+			</div>
+			
+		  </div>
+		  <!-- card dealImg-2 -->
+		<div class="card dealImg">
+			<img style="width:100%" id="card2" alt="Decoration" src="just to avoid error">
+			<div class="cardDetails">
+				<div class= "card title" id="card2Title"></div>
+			  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base" id="card2Description"></p>
+			  <span style='background-color: red;color:white' class="price" id="card2Span"></span>
+	
+			</div>
+			
+		  </div>
+		  <!-- card dealImg-3 -->
+		<div class="card dealImg">
+			<img style="width:100%" id="card3" alt="Decoration" src="just to avoid error">
+			<div class="cardDetails">
+				<div class= "card title" id="card3Title"></div>
+			  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base" id="card3Description"></p>
+			  <span style='background-color: red;color:white' class="price" id="card3Span"></span>
+	
+			</div>
+			
+		  </div>
+		  <!-- card dealImg-4 -->
+		<div class="card dealImg">
+			<img style="width:100%" id="card4" alt="Decoration" src="just to avoid error">
+			<div class="cardDetails">
+				<div class= "card title" id="card4Title"></div>
+			  <p style='color: rgb(55, 65, 81);	font-size: 1rem;line-height: 1.5rem;' class="text-gray-700 text-base" id="card4Description"></p>
+			  <span style='background-color: red;color:white' class="price" id="card4Span"></span>
+	
+			</div>
+			
+		  </div>
+		
+		
+		
+		
+	</div>
+
+	
+	<section  class='container mx-auto my-5 snap-center'>
+		<h1 style="font-size:32px;font-weight:bold">Best Holiday deals</h1>
+		<table id="dealsTable">
+			<thead>
+			  <tr>
+				<th >Name of the items</th>
+				<th >Original Price</th>
+				<th >Today's Deals</th>
+			  </tr>
+			</thead>
+			<div class= "card title">This Table is dynamically Generated using Javascript (See Grid.js)</div>
+			<tbody>
+			  <tr>
+				
+			  </tr>
+			  <tr>
+				
+			  </tr>
+			
+			</tbody>
+		  </table>
+		
+			
+		<div>
+		<h1 style='margin:8px auto;font-size: 1.25rem;line-height: 1.75rem;font-weight: bold;'>Term and Conditions</h1>
+			<article  style="margin:3px;border:1px solid blue;overflow-x: hidden;height:200px;">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur odio, tenetur, quod quam nisi eligendi corrupti sequi deleniti harum, amet mollitia quisquam doloribus quia iusto dicta. Quas odio illum at harum libero assumenda, dignissimos iste maxime placeat ad, magnam explicabo. Excepturi ut ipsum minus libero. Excepturi, sapiente odio reiciendis facere consequatur quae soluta voluptates sequi. Laboriosam, exercitationem quae unde consectetur quibusdam labore veritatis perspiciatis reiciendis in enim voluptas nulla dolor, inventore perferendis nemo tempore pariatur illo ullam. Est aut aspernatur recusandae itaque hic, voluptatem temporibus repudiandae? Aut praesentium assumenda reprehenderit harum, ipsum quis debitis maxime commodi dolores repellendus dolorum.
+			    Lorem ipsum dolor sit ;olfirhafjh Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, odit eaque consectetur mollitia accusamus maiores nostrum tempore illo? Sint beatae incidunt consectetur repellendus eum eius quibusdam asperiores labore culpa laboriosam eveniet suscipit reiciendis tempora nobis doloribus animi amet sequi, illo voluptatibus sed. A porro veniam libero animi alias? Accusamus nulla illo in alias consectetur voluptas consequuntur officia eum quibusdam rerum fuga expedita labore, vitae, unde, delectus quam officiis provident eos obcaecati. At distinctio quaerat quia rem consectetur nam error, eos vero eius libero aliquid est aspernatur dolores ducimus! Cupiditate soluta, neque totam harum consequuntur voluptatem eveniet mollitia. Hic, eius! Porro voluptate voluptas nemo ut quod adipisci incidunt dolorum. Aliquam itaque magni optio ratione pariatur facilis, quas eveniet velit doloremque omnis harum similique mollitia voluptatibus, esse, cum temporibus laborum ex quod nulla at nihil molestiae magnam. Ad amet deleniti officiis iusto animi, praesentium corrupti aperiam distinctio, sapiente repellat ex autem error culpa quis. Odio dignissimos mollitia repudiandae hic in nisi, cumque voluptatem. Perspiciatis eius accusamus rem quibusdam voluptate tempore fugiat possimus iure qui ipsam. Accusantium assumenda laborum accusamus in odio, deserunt debitis quasi voluptatibus doloribus exercitationem magnam dolore qui labore sequi, ducimus earum quam eaque, expedita similique? Minus sapiente sed, distinctio in blanditiis odit tempora natus accusamus omnis! Quos maxime quo amet voluptas recusandae quaerat accusamus necessitatibus quae magnam inventore aspernatur voluptatum obcaecati nam repellendus quas neque, labore aliquid repellat vero rerum nobis quisquam dolorem! Necessitatibus cum eaque aut quo iste nisi, eveniet, deleniti maxime commodi nihil id quia magnam officia ut eos dolores nesciunt illo reprehenderit cumque quas fugiat sequi qui. A sequi nisi dolor amet qui repudiandae, saepe placeat impedit eveniet neque quae reprehenderit, similique fuga perspiciatis voluptatum rem deleniti sint eius dolores et! Laudantium ad debitis consequuntur similique distinctio fuga qui sed dolorem doloremque quaerat quasi voluptatum, repellendus veniam nisi nam ratione hic labore neque eos alias cumque. Molestiae eaque doloribus deleniti voluptas. Labore quisquam illum facere quae vel itaque similique consequatur debitis, laudantium nihil. Possimus velit rem praesentium voluptatem. Iste fugiat ea, neque at corporis blanditiis saepe, dolore quaerat totam beatae nisi unde recusandae eius! Modi esse sint rerum architecto nam ducimus tempora reiciendis, asperiores, recusandae possimus voluptas nisi nesciunt ad, aliquid quos maxime quo? Adipisci dolorem numquam voluptate. Culpa obcaecati iure modi cum, velit esse quas eum porro id? Eveniet, aperiam? Nesciunt, possimus quod? Eaque minus rerum repellendus autem sit esse, suscipit vel amet nulla magni assumenda provident quidem porro explicabo veniam architecto quos laborum soluta. Alias harum sapiente soluta quidem, aperiam dolore magni ullam tempore, porro nostrum ratione sunt deserunt accusantium maxime qui aliquam doloribus assumenda autem tenetur libero. Nemo, praesentium. Quo vero nisi, nulla perferendis sapiente vitae eos sint autem tempora officiis dignissimos aliquam iusto optio, atque, corrupti reprehenderit reiciendis minima temporibus quos voluptatum illo ducimus. Ad delectus dolorem esse repudiandae voluptatem, deleniti nemo aspernatur veniam labore officiis, atque corrupti? Nobis, consequuntur eveniet magni, hic veritatis eligendi unde ipsam amet, culpa nam distinctio? Optio possimus vitae expedita distinctio dolorum ipsum voluptatem? Corporis, error excepturi!lorem1000
+
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur odio, tenetur, quod quam nisi eligendi corrupti sequi deleniti harum, amet mollitia quisquam doloribus quia iusto dicta. Quas odio illum at harum libero assumenda, dignissimos iste maxime placeat ad, magnam explicabo. Excepturi ut ipsum minus libero. Excepturi, sapiente odio reiciendis facere consequatur quae soluta voluptates sequi. Laboriosam, exercitationem quae unde consectetur quibusdam labore veritatis perspiciatis reiciendis in enim voluptas nulla dolor, inventore perferendis nemo tempore pariatur illo ullam. Est aut aspernatur recusandae itaque hic, voluptatem temporibus repudiandae? Aut praesentium assumenda reprehenderit harum, ipsum quis debitis maxime commodi dolores repellendus dolorum.
+			    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia atque culpa assumenda quaerat, dolorum ab officiis voluptas porro rerum animi optio velit expedita tempora eligendi blanditiis nisi aut sit modi vel! Natus molestias atque saepe illo quisquam eos perspiciatis ipsum officiis, dicta repellendus? Culpa atque, ad eos sint excepturi voluptate. Dolorum, illo exercitationem impedit est adipisci minus eveniet consequuntur quae incidunt nulla neque repudiandae, voluptatibus doloremque quis veritatis debitis. Fugiat consequatur aspernatur labore impedit. Omnis reiciendis eaque asperiores totam officia obcaecati illum. Delectus dolore totam, accusantium repudiandae dignissimos provident. Provident odio quidem vitae natus magni exercitationem expedita fugiat illo. amet consectetur adipisicing elit. Delectus quia atque culpa assumenda quaerat, dolorum ab officiis voluptas porro rerum animi optio velit expedita tempora eligendi blanditiis nisi aut sit modi vel! Natus molestias atque saepe illo quisquam eos perspiciatis ipsum officiis, dicta repellendus? Culpa atque, ad eos sint excepturi voluptate. Dolorum, illo exercitationem impedit est adipisci minus eveniet consequuntur quae incidunt nulla neque repudiandae, voluptatibus doloremque quis veritatis debitis. Fugiat consequatur aspernatur labore impedit. Omnis reiciendis eaque asperiores totam officia obcaecati illum. Delectus dolore totam, accusantium repudiandae dignissimos provident. Provident odio quidem vitae natus magni exercitationem expedita fugiat illo. 
+			</article>
+		
+		</div>
+	</section> 
+
+	
+	
+	
+	
+	<footer style="text-align:center"> &copy;2023 Benhur Andrew Joel</footer>
+	 <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>
